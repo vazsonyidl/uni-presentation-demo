@@ -1,0 +1,3 @@
+<app-item-form></app-item-form>
+
+<app-item-card *ngFor="let item of shoppingListItems | async" [config]="item"></app-item-card>

@@ -1,0 +1,11 @@
+<form [formGroup]="formGroup" class="item-form-container">
+  <mat-form-field class="example-form-field" appearance="outline">
+    <mat-label>Name</mat-label>
+    <input matInput type="text" formControlName="name">
+  </mat-form-field>
+  <mat-form-field class="example-form-field" appearance="outline">
+    <mat-label>Amount</mat-label>
+    <input matInput type="text" formControlName="amount">
+  </mat-form-field>
+  <button mat-stroked-button type="submit" (click)="onItemAdd()" class="submit-button">Add</button>
+</form>

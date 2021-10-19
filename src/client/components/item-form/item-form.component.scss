@@ -1,0 +1,10 @@
+:host {
+  .item-form-container {
+    display: grid;
+    place-items: center;
+
+    .submit-button {
+      margin: 0 auto;
+    }
+  }
+}
